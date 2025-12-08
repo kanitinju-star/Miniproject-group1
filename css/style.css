@@ -15,11 +15,17 @@ body {
 }
 
 #header-main {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 #main-detail {
     margin-top: 70px;
+}
+
+@media (max-width: 768px) {
+    #header-main {
+        margin-top: 0;
+    }
 }
 
 /* Section 2: Mon */
