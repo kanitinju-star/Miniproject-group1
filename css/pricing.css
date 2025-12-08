@@ -1,3 +1,7 @@
+.pricing-section{
+    width: 100%;
+    margin-bottom: 78px;
+}
 .pricing-container {
     max-width: 1000px;
     margin: 0 auto;
@@ -101,7 +105,7 @@ tfoot th {
     border: 1px solid #0B075714;
 }
 
-button {
+.btn-custome {
     padding: 12px 32px;
     border: none;
     border-radius: 6px;
