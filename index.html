@@ -25,7 +25,7 @@
       class=
       "flex flex-row justify-between sm:flex sm:flex-row sm:justify-between 
       max-w-[1122px] max-h-[69px] w-[353px] h-[59px] border-b-[1px] border-solid border-b-[#8480AE29]
-      sm:w-[375px] sm:h-[59px] sm:border-b-[#8480AE29]
+      sm:w-[600px] sm:h-[59px] sm:border-b-[#8480AE29]
       xl:w-[1122px] xl:h-[59px]  xl:justify-between xl:items-center xl:border-none"> 
       <a href="#">
         <img src="./assets/header/Logo.png" alt="Logo-navbar" class="max-md:w-[125px] max-md:h-[33px]" />
@@ -42,7 +42,7 @@
           Create Account
         </button>
       </div>
-      <div class="md:hidden group relative" tabindex="0">
+      <div class="xl:hidden group relative" tabindex="0">
         <img src="./assets/header/Frame.png" class="cursor-pointer" alt="Menu" />
         <div
           class="invisible group-focus-within:visible absolute top-12 right-0 bg-white flex flex-col justify-center items-center z-50 w-3xs rounded-4xl">
@@ -68,18 +68,24 @@
     </nav>
     <main id="header-main"
       class=
-      "w-[1122px] h-[632px] flex flex-row justify-between gap-6 sm:w-ful max-md:flex-col max-md:items-start
-      max-sm:w-[353px] max-sm:h-[650px] max-sm:gap-0 max-sm:relative"
+      "w-auto h-[632px] flex flex-row justify-between gap-6 sm:w-ful 
+      max-sm:w-[353px] max-sm:h-[650px] max-sm:relative max-sm:gap-10
+      max-lg:flex-col max-lg:items max-lg:gap-10
+      min-md:max-xl:flex-col min-md:max-xl:items-center min-md:max-xl:gap-10"
       >
-      <div id="main-detail" class="w-[555px] h-[350px] flex flex-col justify-between max-sm:flex max-sm:flex-col max-sm:justify-between max-sm:gap-5">
+      <div id="main-detail" 
+          class="w-[555px] h-[350px] flex flex-col justify-between 
+          max-sm:flex max-sm:flex-col max-sm:justify-between max-sm:gap-5
+          min-md:max-xl:gap-6
+          max-lg:gap-6">
         <div class="flex flex-row gap-2 w-[220px]">
           <span class="text-[#1374F6] text-xl">CREATIVE AGENCY </span>
-          <div class="border border-[#1374F6] w-[34px] h-0 absolute left-145 top-58 
-                      max-sm:top-23 max-sm:left-46 max-sm:w-[18px]"></div>
+          <div class="border border-[#1374F6] w-[34px] h-0 relative left-0 top-5 
+                      max-sm:top-5 max-sm:left-0 max-sm:w-[18px] min-md:max-xl:top-5 min-md:max-xl:left-0"></div>
         </div>
         <h1 class="text-[#0B0757] text-5xl font-medium max-sm:text-4xl">
           We are here to give <br />
-          teh best service
+          the best service
         </h1>
         <span class="text-[#8480AE] text-lg max-sm:text-sm max-sm:w-[343px]">
           It's crafted with the latest trend of design & coded with all modern
@@ -98,24 +104,46 @@
           </div>
         </div>
       </div>
-      <div class="w-[445px] h-[614px] max-sm:w-[359px] max-sm:h-[373px] bg-blue-500 rounded-tr-[70px] rounded-br-xl max-sm:bg-[#F4F7FC]" >
+      <div class="w-[445px] h-[614px] max-sm:w-[359px] max-sm:h-[373px] bg-blue-500 rounded-tr-[70px] rounded-br-xl 
+                  max-sm:bg-transparent max-sm:z-30
+                  min-md:max-xl:w-[300px] min-md:max-xl:h-[450px] min-md:max-xl:z-30" >
         <div class="flex flex-col items-center  bg-[#1374F6] rounded-tr-[70px] rounded-br-xl relative w-[445px]
-            max-sm:w-[263px] max-sm:h-[362px] max-sm:z-30 max-sm:flex max-sm:left-15 max-sm:-bottom-15
+            max-sm:w-[263px] max-sm:h-[362px] max-sm:z-30 max-sm:flex max-sm:left-15 max-sm:-bottom-0 
+            min-md:max-xl:w-[350px] min-md:max-xl:h-[450px]
             ">
-        <img src="./assets/header/image-removebg-preview 1.png" alt="humen" class="absolute z-20 top-[37px] max-sm:w-[218px] max-sm:top-[21px]" />
+        <img src="./assets/header/image-removebg-preview 1.png" alt="humen" 
+                  class="absolute z-20 top-[37px] 
+                  max-sm:w-[218px] max-sm:top-[21px]
+                  max-lg:w-[200px]
+                  min-md:max-xl:w-[270px] min-md:max-xl:top-7" />
         <img src="./assets/header/REAL TIME USER.png" alt="realtime-user"
-          class="absolute -right-28 top-0 z-30 max-sm:top-12 max-sm:left-53 max-sm:w-[88px] max-sm:h-[121px]" />
+          class="absolute -right-28 top-0 z-30 max-sm:top-12 max-sm:left-53 max-sm:w-[88px] max-sm:h-[121px]
+                  max-md:w-[150px] max-md:right-0
+                  min-md:max-xl:w-[180px]"/>
         <div>
           <img src="./assets/header/Group 7.png" alt="user-box"
-            class="absolute -bottom-170 -left-28 z-30 max-sm:w-[106px] max-sm:h-[165px] max-sm:-left-8 max-sm:top-50" />
+            class="absolute -bottom-170 -left-28 z-30 max-sm:w-[106px] max-sm:h-[165px] max-sm:-left-8 max-sm:top-50
+                  max-md:w-[150px] max-md:top-50 max-md:left-5
+                    min-md:max-xl:top-65 min-md:max-xl:w-[200px] min-md:max-xl:-left-25" />
           <img src="./assets/header/Group 32.png" alt="chat-notification"
-            class="absolute z-50 top-82 left-10 max-sm:w-[47px] max-sm:top-48 max-sm:left-7" />
+            class="absolute z-50 top-82 left-10 max-sm:w-[47px] max-sm:top-48 max-sm:left-7
+                    max-md:w-[40px] max-md:top-50 max-md:left-30
+                    min-md:max-xl:top-62 min-md:max-xl:left-5
+                   " />
         </div>
         <div class="z-20 bg-[#F4F7FC] rotate h-[50px] w-[500px] rotate-7 absolute -bottom-159 right-3 
-                    max-sm:rotate-5 max-sm:bg-white max-sm:-bottom-7">
+                    max-sm:rotate-5 max-sm:bg-white max-sm:-bottom-7
+                    max-md:bg-white max-md:top-85 max-md:rotate-10
+                    min-md:max-xl:bg-black min-md:max-xl:top-105 min-md:max-xl:bg-white">
         </div>
-      </div>
       </main>
+      <div
+      id = "foot-box" 
+      class="bg-white h-[140px] w-[1990px] rotate-3 flex flex-row justify-center absolute top-205 right-0.5 overflow-x-hidden
+      max-sm:bg-white max-sm:top-170 max-sm:-left-7 max-sm:w-[580px] max-sm:rotate-12 max-sm:overflow-x-hidden
+      max-md:white max-md:top-190
+      min-md:max-xl:bg-white min-md:max-xl:rotate-5 min-md:max-xl:w-[1300px] min-md:max-xl:right-[4px] min-md:max-xl:overflow-x-hidden">
+      </div>
     </header>
     <!-- Section 2: Mon -->
     <section
@@ -595,25 +623,9 @@
             </div>
         </div>
     </main>
-    <div class="bg-white rotate h-[200px] w-full rotate-4 absolute -left-[6px] -bottom-30">
-
     </div>
   </header>
-  <!-- Section 2: Mon -->
-  <section></section>
-  <!-- Section 3: Mena -->
-  <section></section>
-  <!-- Section 4: Few -->
-  <section></section>
-  <section></section>
-  <!-- Section 5: Few -->
-  <section></section>
-  <!-- Section 6: Mon -->
-  <section></section>
-  <!-- Section 7: Mek -->
-  <footer></footer>
 </body>
-
 </html>
 =======
     <section></section>
