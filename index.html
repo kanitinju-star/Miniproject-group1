@@ -16,11 +16,13 @@
 
 <body>
   <!-- Section 1: First -->
-  <header class="flex flex-col items-center  w-full max-h-[956px] sm:w-full sm:h-[737px] bg-[#F4F7FC]">
-    <nav id="header-nav"
-      class="flex flex-row justify-between sm:flex sm:flex-row sm:justify-between 
+  <header class="flex flex-col items-center w-full h-[956px]  max-sm:w-full max-sm:h-[737px]">
+    <div class="flex flex-col items-center w-full h-[911px] bg-[#F4F7FC] max-sm:w-full">
+      <nav id="header-nav"
+      class=
+      "flex flex-row justify-between sm:flex sm:flex-row sm:justify-between 
       max-w-[1122px] max-h-[69px] w-[353px] h-[59px] border-b-[1px] border-solid border-b-[#8480AE29]
-      sm:w-[353px] sm:h-[59px] sm:border-b-[#8480AE29] 
+      sm:w-[375px] sm:h-[59px] sm:border-b-[#8480AE29]
       xl:w-[1122px] xl:h-[59px]  xl:justify-between xl:items-center xl:border-none"> 
       <a href="#">
         <img src="./assets/header/Logo.png" alt="Logo-navbar" class="max-md:w-[125px] max-md:h-[33px]" />
@@ -62,24 +64,29 @@
         </div>
     </nav>
     <main id="header-main"
-      class="w-[1122px] h-[632px] flex flex-row justify-between gap-6 max-md:w-full max-md:flex-col max-md:items-start">
-      <div id="main-detail" class="w-[555px] h-[350px] flex flex-col justify-between">
-        <div class="flex flex-row gap-2 w-[220px] relative">
+      class=
+      "w-[1122px] h-[632px] flex flex-row justify-between gap-6 sm:w-ful max-md:flex-col max-md:items-start
+      max-sm:w-[353px] max-sm:h-[650px] max-sm:gap-0 max-sm:relative"
+      >
+      <div id="main-detail" class="w-[555px] h-[350px] flex flex-col justify-between max-sm:flex max-sm:flex-col max-sm:justify-between max-sm:gap-5">
+        <div class="flex flex-row gap-2 w-[220px]">
           <span class="text-[#1374F6] text-xl">CREATIVE AGENCY </span>
-          <div class="border border-[#1374F6] w-[34px] absolute right-0 bottom-1.5"></div>
+          <div class="border border-[#1374F6] w-[34px] h-0 absolute left-145 top-58 
+                      max-sm:top-23 max-sm:left-46 max-sm:w-[18px]"></div>
         </div>
-        <h1 class="text-[#0B0757] text-5xl font-medium">
+        <h1 class="text-[#0B0757] text-5xl font-medium max-sm:text-4xl">
           We are here to give <br />
           teh best service
         </h1>
-        <span class="text-[#8480AE] text-lg">
+        <span class="text-[#8480AE] text-lg max-sm:text-sm max-sm:w-[343px]">
           It's crafted with the latest trend of design & coded with all modern
           <bt />
           approaches. It's a robust & multi-dimensional usable template.
         </span>
         <div class="flex flex-row w-full h-[60px] gap-10">
           <button
-            class="w-[160px] h-full bg-[#1374F6] rounded-[5px] text-base text-white font-medium hover:bg-blue-500 hover:cursor-pointer active:bg-[#1374F6]">
+            class=
+            "w-[160px] h-full bg-[#1374F6] rounded-[5px] text-base text-white font-medium hover:bg-blue-500 hover:cursor-pointer active:bg-[#1374F6]">
             Get Started
           </button>
           <div class="flex flex-row items-center gap-2 hover:cursor-pointer">
@@ -88,22 +95,24 @@
           </div>
         </div>
       </div>
-      <div class="flex flex-col justify-end items-center w-[445px] bg-[#1374F6] rounded-tr-[70px] rounded-br-xl relative max-md:bg-[#1374F6] max-md:w-[359px] max-md:-bottom-[400px]
-            max-md:-right-50">
-        <img src="./assets/header/image-removebg-preview 1.png" alt="humen" class="absolute z-10 max-md:w-[218px]" />
+      <div class="w-[445px] h-[614px] max-sm:w-[359px] max-sm:h-[373px] bg-blue-500 rounded-tr-[70px] rounded-br-xl max-sm:bg-[#F4F7FC]" >
+        <div class="flex flex-col items-center  bg-[#1374F6] rounded-tr-[70px] rounded-br-xl relative w-[445px]
+            max-sm:w-[263px] max-sm:h-[362px] max-sm:z-30 max-sm:flex max-sm:left-15 max-sm:-bottom-30
+            ">
+        <img src="./assets/header/image-removebg-preview 1.png" alt="humen" class="absolute z-20 top-[37px] max-sm:w-[218px] max-sm:top-[21px]" />
         <img src="./assets/header/REAL TIME USER.png" alt="realtime-user"
-          class="absolute -right-28 top-10 z-30 max-md:-top-[600px] max-md:w-[149px]" />
+          class="absolute -right-28 top-0 z-30 max-sm:top-12 max-sm:left-53 max-sm:w-[88px] max-sm:h-[121px]" />
         <div>
           <img src="./assets/header/Group 7.png" alt="user-box"
-            class="absolute -bottom-14 -left-29 z-30 max-md:w-[180px]" />
+            class="absolute -bottom-170 -left-28 z-30 max-sm:w-[106px] max-sm:h-[165px] max-sm:-left-8 max-sm:top-50" />
           <img src="./assets/header/Group 32.png" alt="chat-notification"
-            class="absolute z-50 bottom-54 left-9 max-md:w-[48px]" />
+            class="absolute z-50 bottom-54 left-9 max-sm:w-[47px] max-sm:top-48 max-sm:left-7" />
         </div>
-        <div class="z-20 bg-[#F4F7FC] rotate h-[100px] w-[500px] rotate-10 absolute -bottom-14 right-5">
+        <div class="z-20 bg-[#F4F7FC] rotate h-[100px] w-[500px] rotate-10 absolute -bottom-168 right-3 max-sm:bg-white max-sm:-bottom-14">
         </div>
-    </main>
-    <div class="bg-white rotate h-[300px] w-full rotate-4 absolute -bottom-45">
-
+      </div>
+      </main>
+      <div class="bg-white rotate h-[300px] w-full rotate-4 absolute -bottom-60 max-sm:-left-2 "></div>
       </div>
     </header>
     <!-- Section 2: Mon -->
