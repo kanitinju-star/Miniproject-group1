@@ -1,0 +1,37 @@
+
+* {
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+}
+
+/* Section 1: First */
+#header-nav {
+    margin-top: 32px;
+}
+
+#header-main {
+    margin-top: 50px;
+}
+
+#main-detail {
+    margin-top: 70px;
+}
+
+@media (max-width: 768px) {
+    #header-main {
+        margin-top: 0;
+    }
+}
+
+/* Section 2: Mon */
+/* Section 3: Mena */
+/* Section 4: Few */
+/* Section 5: Few */
+/* Section 6: Mon */
+/* Section 7: Mek */
+

@@ -1,0 +1,151 @@
+.pricing-section{
+    width: 100%;
+    margin-bottom: 78px;
+}
+.pricing-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    overflow-x:auto;
+}
+
+.pricing-header {
+    color: #8480AE;
+    font-size: 14px;
+    margin-bottom: 29px;
+    margin-top: 135px;
+}
+
+.pricing-title {
+    color: #0B0757;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 29px;
+}
+
+table {
+    width: 100%;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 25px 20px;
+    text-align: center;
+    border: 1px solid #0B075714;
+}
+
+thead th {
+    font-weight: bold;
+    padding: 30px 20px;
+    border: 1px solid #0B075714;
+}
+
+thead th:first-child {
+    background: transparent;
+    border: 1px solid #0B075714;
+}
+
+.price {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.plan-name {
+    font-size: 14px;
+    color: #8480AE;
+    font-weight: normal;
+}
+
+.price-regular {
+    color: #FDC46E;
+}
+
+.price-premium {
+    color: #00B894;
+}
+
+.price-corporate {
+    color: #1374F6;
+}
+
+tbody th {
+    text-align: left;
+    padding-left: 30px;
+    font-weight: 500;
+    color: #8480AE;
+    border: 1px solid #0B075714;
+}
+
+tbody td {
+    border: 1px solid #0B075714;
+}
+
+.check {
+    color: #1374F6;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cross {
+    color: #8480AE;
+    font-size: 20px;
+}
+
+tfoot td {
+    padding: 30px 20px;
+    border: 1px solid #0B075714;
+}
+
+tfoot th {
+    background: transparent;
+    border: 1px solid #0B075714;
+}
+
+.btn-custome {
+    padding: 12px 32px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-bottom: 8px;
+}
+
+.regular-btn {
+    background-color: #FDC46E;
+    color: white;
+}
+
+.regular-btn:hover {
+    background-color: #f59e0b;
+}
+
+.premium-btn {
+    background-color: #00B894;
+    color: white;
+}
+
+.premium-btn:hover {
+    background-color: #059669;
+}
+
+.corporate-btn {
+    background-color: #1374F6;
+    color: white;
+}
+
+.corporate-btn:hover {
+    background-color: #2563eb;
+}
+
+.trial-text {
+    font-size: 12px;
+    color: #8480AE;
+    display: block;
+}
