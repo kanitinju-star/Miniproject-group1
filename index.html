@@ -2,100 +2,195 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agencio</title>
-    <link rel="icon" href="/assets/image/img-footer/logo 1.png">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/pricing.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-        rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agencio</title>
+  <link rel="icon" href="/assets/image/img-footer/logo 1.png">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css\pricing.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <!-- Section 1: First -->
-    <header>
+  <!-- Section 1: First -->
+  <header class="flex flex-col items-center w-full h-[956px]  max-sm:w-full max-sm:h-[737px]">
+    <div class="flex flex-col items-center w-full h-[911px] bg-[#F4F7FC] max-sm:w-full">
+      <nav id="header-nav"
+      class=
+      "flex flex-row justify-between sm:flex sm:flex-row sm:justify-between 
+      max-w-[1122px] max-h-[69px] w-[353px] h-[59px] border-b-[1px] border-solid border-b-[#8480AE29]
+      sm:w-[375px] sm:h-[59px] sm:border-b-[#8480AE29]
+      xl:w-[1122px] xl:h-[59px]  xl:justify-between xl:items-center xl:border-none"> 
+      <a href="#">
+        <img src="./assets/header/Logo.png" alt="Logo-navbar" class="max-md:w-[125px] max-md:h-[33px]" />
+      </a>
+      <div
+        class="hidden sm:hidden xl:flex  xl:flex-row xl:justify-between xl:items-center xl:w-[646px] xl:text-[#1F1E61]">
+        <span class="hover:underline hover:cursor-pointer">Home</span>
+        <span class="hover:underline hover:cursor-pointer">Category</span>
+        <span class="hover:underline hover:cursor-pointer">Service</span>
+        <span class="hover:underline hover:cursor-pointer">Blog</span>
+        <span class="hover:underline hover:cursor-pointer">Contact</span>
+        <button
+          class="w-[160px] h-[60px] rounded-[5px] bg-[#FDD76E] flex flex-col justify-center items-center hover:bg-amber-500 hover:cursor-pointer active:bg-[#FDD76E]">
+          Create Account
+        </button>
+      </div>
+      <div class="md:hidden group relative" tabindex="0">
+        <img src="./assets/header/Frame.png" class="cursor-pointer" alt="Menu" />
+        <div
+          class="invisible group-focus-within:visible absolute top-12 right-0 bg-white flex flex-col justify-center items-center z-50 w-3xs rounded-4xl">
+          <p id="nav-text"
+            class="flex items-center justify-center hover:underline cursor-pointer active:bg-[#FDD76E] w-full h-[60px] rounded-4xl text-center">
+            Home</p>
+          <p id="nav-text"
+            class="flex items-center justify-center hover:underline cursor-pointer active:bg-[#FDD76E] w-full h-[60px] rounded-4xl text-center">
+            Category</p>
+          <p id="nav-text"
+            class="flex items-center justify-center hover:underline cursor-pointer active:bg-[#FDD76E] w-full h-[60px] rounded-4xl text-center">
+            Service</p>
+          <p id="nav-text"
+            class="flex items-center justify-center hover:underline cursor-pointer active:bg-[#FDD76E] w-full h-[60px] rounded-4xl text-center">
+            Blog</p>
+          <p id="nav-text"
+            class="flex items-center justify-center hover:underline cursor-pointer active:bg-[#FDD76E] w-full h-[60px] rounded-4xl text-center">
+            Contact</p>
+          <button class="flex items-center justify-center active:bg-[#FDD76E] w-full h-[60px] rounded-4xl text-center">
+            Create Account
+          </button>
+        </div>
+    </nav>
+    <main id="header-main"
+      class=
+      "w-[1122px] h-[632px] flex flex-row justify-between gap-6 sm:w-ful max-md:flex-col max-md:items-start
+      max-sm:w-[353px] max-sm:h-[650px] max-sm:gap-0 max-sm:relative"
+      >
+      <div id="main-detail" class="w-[555px] h-[350px] flex flex-col justify-between max-sm:flex max-sm:flex-col max-sm:justify-between max-sm:gap-5">
+        <div class="flex flex-row gap-2 w-[220px]">
+          <span class="text-[#1374F6] text-xl">CREATIVE AGENCY </span>
+          <div class="border border-[#1374F6] w-[34px] h-0 absolute left-145 top-58 
+                      max-sm:top-23 max-sm:left-46 max-sm:w-[18px]"></div>
+        </div>
+        <h1 class="text-[#0B0757] text-5xl font-medium max-sm:text-4xl">
+          We are here to give <br />
+          teh best service
+        </h1>
+        <span class="text-[#8480AE] text-lg max-sm:text-sm max-sm:w-[343px]">
+          It's crafted with the latest trend of design & coded with all modern
+          <bt />
+          approaches. It's a robust & multi-dimensional usable template.
+        </span>
+        <div class="flex flex-row w-full h-[60px] gap-10">
+          <button
+            class=
+            "w-[160px] h-full bg-[#1374F6] rounded-[5px] text-base text-white font-medium hover:bg-blue-500 hover:cursor-pointer active:bg-[#1374F6]">
+            Get Started
+          </button>
+          <div class="flex flex-row items-center gap-2 hover:cursor-pointer">
+            <img src="./assets/header/Group 53.png" alt="play-icon" />
+            <span class="text-base text-[#0B0757]">Watch Video</span>
+          </div>
+        </div>
+      </div>
+      <div class="w-[445px] h-[614px] max-sm:w-[359px] max-sm:h-[373px] bg-blue-500 rounded-tr-[70px] rounded-br-xl max-sm:bg-[#F4F7FC]" >
+        <div class="flex flex-col items-center  bg-[#1374F6] rounded-tr-[70px] rounded-br-xl relative w-[445px]
+            max-sm:w-[263px] max-sm:h-[362px] max-sm:z-30 max-sm:flex max-sm:left-15 max-sm:-bottom-15
+            ">
+        <img src="./assets/header/image-removebg-preview 1.png" alt="humen" class="absolute z-20 top-[37px] max-sm:w-[218px] max-sm:top-[21px]" />
+        <img src="./assets/header/REAL TIME USER.png" alt="realtime-user"
+          class="absolute -right-28 top-0 z-30 max-sm:top-12 max-sm:left-53 max-sm:w-[88px] max-sm:h-[121px]" />
+        <div>
+          <img src="./assets/header/Group 7.png" alt="user-box"
+            class="absolute -bottom-170 -left-28 z-30 max-sm:w-[106px] max-sm:h-[165px] max-sm:-left-8 max-sm:top-50" />
+          <img src="./assets/header/Group 32.png" alt="chat-notification"
+            class="absolute z-50 bottom-54 left-9 max-sm:w-[47px] max-sm:top-48 max-sm:left-7" />
+        </div>
+        <div class="z-20 bg-[#F4F7FC] rotate h-[50px] w-[500px] rotate-7 absolute -bottom-159 right-3 
+                    max-sm:rotate-5 max-sm:bg-white max-sm:-bottom-7">
+        </div>
+      </div>
+      </main>
     </header>
     <!-- Section 2: Mon -->
-    <section>
-    </section>
+    <section></section>
     <!-- Section 3: Mena -->
-    <section>
-    </section>
+    <section></section>
     <!-- Section 4: Few -->
     <section class="pricing-section">
-        <div class="pricing-container">
-            <p class="pricing-header">Price Plan</p>
-            <h1 class="pricing-title">No Extra Charges!Choose<br> Your Plan.</h1>
-            <table>
-                <thead>
-                    <tr>
-                        <th></th>
-                        <th>
-                            <div class="price price-regular">$2000</div>
-                            <div class="plan-name">Regular</div>
-                        </th>
-                        <th>
-                            <div class="price price-premium">$3000</div>
-                            <div class="plan-name">Premium</div>
-                        </th>
-                        <th>
-                            <div class="price price-corporate">$5000</div>
-                            <div class="plan-name">Corporate</div>
-                        </th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th>Full Access</th>
-                        <td><span class="cross">✕</span></td>
-                        <td><span class="cross">✕</span></td>
-                        <td><span class="check">✓</span></td>
-                    </tr>
-                    <tr>
-                        <th>Multiple User</th>
-                        <td><span class="cross">✕</span></td>
-                        <td><span class="cross">✕</span></td>
-                        <td><span class="check">✓</span></td>
-                    </tr>
-                    <tr>
-                        <th>Refund</th>
-                        <td><span class="cross">✕</span></td>
-                        <td><span class="check">✓</span></td>
-                        <td><span class="check">✓</span></td>
-                    </tr>
-                    <tr>
-                        <th>24/7 Support</th>
-                        <td><span class="check">✓</span></td>
-                        <td><span class="check">✓</span></td>
-                        <td><span class="check">✓</span></td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <th></th>
-                        <td>
-                            <button class="btn-custome regular-btn">Choose Plan</button>
-                            <span class="trial-text">Get your 30 days free trial</span>
-                        </td>
-                        <td>
-                            <button class="btn-custome premium-btn">Choose Plan</button>
-                            <span class="trial-text">Get your 30 days free trial</span>
-                        </td>
-                        <td>
-                            <button class="btn-custome corporate-btn">Choose Plan</button>
-                            <span class="trial-text">Get your 30 days free trial</span>
-                        </td>
-                    </tr>
-                </tfoot>
-            </table>
-        </div>
-    </section>
+      <div class="pricing-container">
+          <p class="pricing-header">Price Plan</p>
+          <h1 class="pricing-title">No Extra Charges!Choose<br> Your Plan.</h1>
+          <table>
+              <thead>
+                  <tr>
+                      <th></th>
+                      <th>
+                          <div class="price price-regular">$2000</div>
+                          <div class="plan-name">Regular</div>
+                      </th>
+                      <th>
+                          <div class="price price-premium">$3000</div>
+                          <div class="plan-name">Premium</div>
+                      </th>
+                      <th>
+                          <div class="price price-corporate">$5000</div>
+                          <div class="plan-name">Corporate</div>
+                      </th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <th>Full Access</th>
+                      <td><span class="cross">✕</span></td>
+                      <td><span class="cross">✕</span></td>
+                      <td><span class="check">✓</span></td>
+                  </tr>
+                  <tr>
+                      <th>Multiple User</th>
+                      <td><span class="cross">✕</span></td>
+                      <td><span class="cross">✕</span></td>
+                      <td><span class="check">✓</span></td>
+                  </tr>
+                  <tr>
+                      <th>Refund</th>
+                      <td><span class="cross">✕</span></td>
+                      <td><span class="check">✓</span></td>
+                      <td><span class="check">✓</span></td>
+                  </tr>
+                  <tr>
+                      <th>24/7 Support</th>
+                      <td><span class="check">✓</span></td>
+                      <td><span class="check">✓</span></td>
+                      <td><span class="check">✓</span></td>
+                  </tr>
+              </tbody>
+              <tfoot>
+                  <tr>
+                      <th></th>
+                      <td>
+                          <button class="btn-custome regular-btn">Choose Plan</button>
+                          <span class="trial-text">Get your 30 days free trial</span>
+                      </td>
+                      <td>
+                          <button class="btn-custome premium-btn">Choose Plan</button>
+                          <span class="trial-text">Get your 30 days free trial</span>
+                      </td>
+                      <td>
+                          <button class="btn-custome corporate-btn">Choose Plan</button>
+                          <span class="trial-text">Get your 30 days free trial</span>
+                      </td>
+                  </tr>
+              </tfoot>
+          </table>
+      </div>
+  </section>
+  <section></section>
     <!-- Section 5: Few -->
     <section class="flex justify-center items-center py-20 bg-white">
         <div class="flex flex-col md:flex-row items-center mx-auto gap-12 px-4">
@@ -320,8 +415,30 @@
                 <p class="hidden sm:hidden xl:flex text-base text-[#0B075733]">. All Rights Reserved</p>
             </div>
         </div>
-    </footer>
-    <!-- Section 7 [Footer] -->
+    </main>
+    <div class="bg-white rotate h-[200px] w-full rotate-4 absolute -left-[6px] -bottom-30">
+
+    </div>
+  </header>
+  <!-- Section 2: Mon -->
+  <section></section>
+  <!-- Section 3: Mena -->
+  <section></section>
+  <!-- Section 4: Few -->
+  <section></section>
+  <section></section>
+  <!-- Section 5: Few -->
+  <section></section>
+  <!-- Section 6: Mon -->
+  <section></section>
+  <!-- Section 7: Mek -->
+  <footer></footer>
 </body>
 
+</html>
+=======
+    <section></section>
+    <!-- Section 7: Mek -->
+    <footer></footer>
+  </body>
 </html>
